@@ -1,6 +1,6 @@
 
 fbind <- function(a, b){
 
-    factor(as.character(a),
-           as.character(b))
+    factor(c(as.character(a),
+             as.character(b)))
 }
